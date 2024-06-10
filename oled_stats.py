@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
-# Created by: Michael Klements
-# For Raspberry Pi Desktop Case with OLED Stats Display
+# Write text to GPIO-connected OLED displays
+#
+# Modified by: Jim Nicholson
+# Based on code by: Michael Klements
 # Base on Adafruit CircuitPython & SSD1306 Libraries
 # Installation & Setup Instructions - https://www.the-diy-life.com/add-an-oled-stats-display-to-raspberry-pi-os-bullseye/
 import time
