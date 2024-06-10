@@ -19,9 +19,10 @@ try:
     with open("/sys/class/thermal/thermal_zone0/temp") as file:
       temp = float(file.read()) / 1000.00
       temp = float('%.2f' % temp)
-
+    print(f"{ temp = }")
     for threshold, pulse in reversed(temp_pulse_pairs):
         if temp > threshold:
+            print(f"{ threshold = }")
             pwm.setServoPulse(0, pulse)
             break
     else:
