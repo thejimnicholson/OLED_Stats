@@ -1,3 +1,5 @@
 adafruit-circuitpython-ssd1306
+adafruit-circuitpython-pca9685
 psutil
 Pillow
+smbus
